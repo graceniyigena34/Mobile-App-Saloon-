@@ -43,7 +43,7 @@ export default function TabLayout() {
 
       {/* 3. Payment (payment.tsx) */}
       <Tabs.Screen
-        name="payment" // Ensure this file is app/(tabs)/payment.tsx
+        name="Payment" // Ensure this file is app/(tabs)/Payment.tsx
         options={{
           tabBarIcon: ({ color, focused }) => (
             <Ionicons name={focused ? "card" : "card-outline"} size={26} color={color} />
@@ -52,9 +52,9 @@ export default function TabLayout() {
       />
 
       
-      {/* 4. Booking (Using the Chat Bubble icon per your design) */}
+      {/* 3. Booking (Using the Chat Bubble icon per your design) */}
       <Tabs.Screen
-        name="booking"
+        name="Booking"
         options={{
           tabBarIcon: ({ color, focused }) => (
             <Ionicons 
